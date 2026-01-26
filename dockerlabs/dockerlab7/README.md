@@ -1,4 +1,4 @@
-Lab 5: Docker Volume and Bind Mount with Nginx 🐳
+Lab 7: Docker Volume and Bind Mount with Nginx 🐳
 📝 Lab Description
 In this lab, I implemented Data Persistence techniques using Docker. I practiced using Named Volumes to persist system logs and Bind Mounts to serve custom content from the host machine. This ensures that important data (like logs) is not lost when the container is deleted, and allows for real-time updates to the web content.
 
@@ -45,4 +45,5 @@ Log Path: sudo ls /var/lib/docker/volumes/nginx_logs/_data
 
 Cleanup: docker stop nginx-container && docker rm nginx-container docker volume rm nginx_logs
 <img width="1287" height="73" alt="image" src="https://github.com/user-attachments/assets/f0c3d597-92aa-4054-8bf5-8d12e0a7f818" />
+
 

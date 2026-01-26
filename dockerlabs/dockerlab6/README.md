@@ -1,4 +1,4 @@
-Lab 4: Managing Docker Environment Variables 🐳
+Lab 6: Managing Docker Environment Variables 🐳
 📝 Lab Description
 This lab focuses on managing application configurations dynamically using Environment Variables. I practiced three different methods to inject variables into a Python Flask application, demonstrating how to control app behavior (Development, Staging, Production) without modifying the source code.
 
@@ -57,3 +57,4 @@ To clean up the containers after verification:
 
 docker stop container-dev container-stage container-prod
 docker rm container-dev container-stage container-prod
+

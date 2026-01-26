@@ -1,4 +1,4 @@
-Lab 6: Custom Docker Network for Microservices 🌐
+Lab 7: Custom Docker Network for Microservices 🌐
 📝 Lab Description
 In this lab, I implemented Docker Networking to connect microservices. I demonstrated how a custom bridge network allows containers to communicate using their Container Names (DNS Resolution) and how containers on different networks remain isolated for security.
 
@@ -57,3 +57,4 @@ Command
 docker stop frontend1 frontend2 backend
 docker rm frontend1 frontend2 backend
 docker network rm ivolve-network
+
